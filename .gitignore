@@ -44,20 +44,4 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# Atmel Specific
-*.atsuo
-*.atsln
-*.xml
-*.cproj
-*.eep
-*.elf
-*.hex
-*.lss
-*.map
-*.srec
-*.d
-*.o
-*.mk
-Makefile
-
 # End of https://www.gitignore.io/api/c,atmelstudio
