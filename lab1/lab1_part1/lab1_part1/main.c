@@ -10,9 +10,13 @@
 
 int main(void)
 {
+	DDRA = 0x00; PORTA = 0xff;
+	DDRB = 0xff; PORTB = 0x00;
+	
     unsigned char doorSensor = 0x00;
 	unsigned char lightSensor = 0x00;
 	unsigned char led = 0x00;
+	
 	while (1) 
     {
 		doorSensor = PINA & 0x01;

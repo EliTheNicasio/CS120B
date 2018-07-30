@@ -1,1 +1,2 @@
-# Project name: lab_[number]_part_[number]
+# Project name: Lab\_[number]\_Part_[number]
+
